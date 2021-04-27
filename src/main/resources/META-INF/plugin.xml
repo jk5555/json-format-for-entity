@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.kun.FormatJSONForEntity</id>
     <name>FormatJSONForEntity</name>
-    <vendor email="kun1.0@qq.com" url="https://jk5555.github.io/">昆虫导航</vendor>
+    <vendor email="kun1.0@qq.com" url="https://github.com/jk5555/json-format-for-entity">项目地址</vendor>
 
     <description><![CDATA[
     The purpose of this plugin is mainly to convert the current entity class into a JSON string<br>
@@ -10,11 +10,8 @@
     ]]></description>
 
     <change-notes>
-        <![CDATA[
-        version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)<br>
-        version 1.0  初始版本.可能会有些问题，以后解决（如果有以后的话，嘿嘿）<br>
-    <em>kun</em>
-    ]]>
+        version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)&lt;br&gt;
+        &lt;em&gt;kun&lt;/em&gt;
     </change-notes>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html

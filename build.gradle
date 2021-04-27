@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.kun'
-version '1.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
@@ -12,7 +12,6 @@ repositories {
 
 dependencies {
     compile group: 'com.alibaba', name: 'fastjson', version: '1.2.39'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
@@ -21,9 +20,7 @@ intellij {
     version '2021.1'
 }
 patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+    changeNotes """version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)<br>"""
 }
 test {
     useJUnitPlatform()

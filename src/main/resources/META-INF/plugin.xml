@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>com.kun.FormatJSONForEntity</id>
+    <name>FormatJSONForEntity</name>
+    <vendor email="kun1.0@qq.com" url="https://jk5555.github.io/">昆虫导航</vendor>
+
+    <description><![CDATA[
+    The purpose of this plugin is mainly to convert the current entity class into a JSON string<br>
+    这个插件的用途主要是将当前实体类转化为JSON字符串<br>
+    <em>kun</em>
+    ]]></description>
+
+    <change-notes>
+        <![CDATA[
+        version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)<br>
+        version 1.0  初始版本.可能会有些问题，以后解决（如果有以后的话，嘿嘿）<br>
+    <em>kun</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="format.json" class="com.kun.format.FormatJSONCore" text="格式化实体类成JSON" description="格式化实体类成JSON">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>

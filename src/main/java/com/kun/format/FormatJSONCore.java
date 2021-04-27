@@ -54,6 +54,7 @@ public class FormatJSONCore extends AnAction {
             } catch (Exception exception) {
                 exception.printStackTrace();
                 Messages.showErrorDialog(project, "不支持当前的项目目录结构，建议使用标准的maven或者gradle项目目录结构。", "class加载错误");
+                return;
             }
         }
         String istr = "format fail: only support basic type entity now.";

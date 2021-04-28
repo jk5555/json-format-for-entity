@@ -75,6 +75,7 @@ public class FormatJSONCore extends AnAction {
 
     @Override
     public void update(AnActionEvent e) {
+
         Editor editor = e.getData(CommonDataKeys.EDITOR);
         PsiFile psiFile = e.getData(CommonDataKeys.PSI_FILE);
         FileType fileType = psiFile.getFileType();

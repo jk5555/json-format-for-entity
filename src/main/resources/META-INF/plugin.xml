@@ -5,15 +5,15 @@
 
     <description><![CDATA[
     <p>The purpose of this plugin is mainly to convert the current entity class into a JSON string.</p>
-    <p>Operation method: in the editor page of the java entity class, menu: code - generate - format the entity class into JSON</p>
+    <p>Operation method: in the editor page of the java entity class, menu: code - generate - toJSONString</p>
     <p>这个插件的用途主要是将当前实体类转化为JSON字符串。</p>
     <p>操作方法：在java实体类的编辑器页面，菜单：代码 - 生成 - toJSONString </p><br>
    <em><a href="https://github.com/jk5555/json-format-for-entity">插件github主页</a></em>
     ]]></description>
 
     <change-notes>
-        version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)&lt;br&gt;
         version 2.0  Change the implementation method and add more types of adaptation.&lt;br&gt;
+        version 1.0  First version. May be have some problem. Solve later(If there is a future! haha!!!)&lt;br&gt;
     </change-notes>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
